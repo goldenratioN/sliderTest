@@ -36,11 +36,13 @@
 
 .single-slide{
 	position: relative;
+	height: 90vh;
 }
 .single-slide-content{
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	width: 100%;
 	transform: translate(-50%,-50%);
 	color: white;
 }
@@ -73,7 +75,21 @@
 
 
 
-
+.slider-1{
+	background: url("img-1.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.slider-2{
+	background: url("img-2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.slider-3{
+	background: url("img-4.jpg");
+	background-position: center;
+	background-size: cover;
+}
 
 
 
@@ -89,15 +105,18 @@
 		display: none;
 	}
 	.single-slide h1{
-		font-size: 10px;
+		font-size: 25px;
 	}
-
 	.single-slide h3{
-		font-size: 18px;
+		font-size: 20px;
 	}
-	.single-slide .slider-btn a{
-		padding: 10px 15px;
+	.single-slide-content ul li a{
+		padding: 10px 10px;
 		font-size: 18px;
+		font-weight: normal;
 		letter-spacing: 2px;
 	}
+
+
+	
 }
