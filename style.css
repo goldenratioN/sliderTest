@@ -1,0 +1,103 @@
+
+.menu-area{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.logo h1{
+	color: white;
+	margin-top: 10px;
+
+}
+.main-menu ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+}
+.main-menu ul li{
+	display: inline-block;
+}
+.main-menu ul li a{
+	display: block;
+	color: white;
+	padding: 25px 30px;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.main-menu ul li a:hover{
+	background: #007bff5e;
+	text-decoration: none;
+}
+
+.single-slide{
+	position: relative;
+}
+.single-slide-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.single-slide-content h1{
+	font-size: 60px;
+}
+.single-slide-content h3{
+	font-size: 40px;
+}
+.single-slide-content .slider-btn{
+	margin-top: 20px;
+}
+.single-slide-content ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.single-slide-content ul li{
+	display: inline-block;
+}
+.single-slide-content ul li a{
+	display: block;
+	padding: 20px 40px;
+	background: blue;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 768px){
+	.menu-area{
+		display: none;
+	}
+	.single-slide h1{
+		font-size: 20px;
+	}
+
+	.single-slide h3{
+		font-size: 18px;
+	}
+	.single-slide .slider-btn a{
+		padding: 10px 20px;
+		font-size: 18px;
+		letter-spacing: 2px;
+	}
+}
