@@ -116,7 +116,17 @@
 		font-weight: normal;
 		letter-spacing: 2px;
 	}
-
+	
+	.slider-1{
+		background-position: left;
+	}
+	.slider-2{
+		background-position: right;
+	}
+	.slider-3{
+		background-position: right;
+		
+	}
 
 	
 }
