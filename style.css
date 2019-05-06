@@ -75,18 +75,21 @@
 
 
 
+
+
 .slider-1{
-	background: url("img-1.jpg");
+	background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("img-1.jpg") no-repeat;
 	background-position: center;
 	background-size: cover;
+	
 }
 .slider-2{
-	background: url("img-2.jpg");
+	background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img-2.jpg") no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 .slider-3{
-	background: url("img-4.jpg");
+	background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img-3.jpg") no-repeat;	
 	background-position: center;
 	background-size: cover;
 }
