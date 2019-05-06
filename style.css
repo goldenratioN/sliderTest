@@ -1,10 +1,27 @@
-
+a:hover{
+	text-decoration: none;
+}
 .menu-area{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 100;
+	/*background-color: red;*/
+	transition: 0.4s;
+	border-bottom: 1px solid white;
+}
+.menu-area-bg{
+	background: #ff8d00;
+	border-bottom: 0px solid white;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
+
+}
+.menu-toggle{
+	position: absolute;
+	top: 15px;
+	right: 25px;
+	display: none;
 }
 
 .logo h1{
@@ -37,7 +54,9 @@
 .single-slide{
 	position: relative;
 	height: 90vh;
+
 }
+
 .single-slide-content{
 	position: absolute;
 	top: 50%;
@@ -45,6 +64,8 @@
 	width: 100%;
 	transform: translate(-50%,-50%);
 	color: white;
+	/*z-index: 2;*/
+
 }
 .single-slide-content h1{
 	font-size: 60px;
@@ -65,15 +86,13 @@
 }
 .single-slide-content ul li a{
 	display: block;
-	padding: 20px 40px;
-	background: blue;
+	padding: 15px 40px;
+	background: #ff8d00;
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 5px;
 	color: white;
 }
-
-
 
 
 
@@ -104,8 +123,27 @@
 
 
 @media (min-width: 0px) and (max-width: 768px){
-	.menu-area{
+	.main-menu{
 		display: none;
+	}
+	.menu-toggle{
+		display: block;
+		z-index: 10000;
+	}
+	.main-menu{
+		background: #ff8d00;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	.main-menu ul li{
+		display: block;
+		text-align: left;
+	}
+	.main-menu ul li a{
+		padding: 10px 40px;
+
 	}
 	.single-slide h1{
 		font-size: 25px;
